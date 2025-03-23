@@ -9,19 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.2"
+    "@fullcalendar/react": "^6.1.15",
+    "@react-jvectormap/core": "^1.0.4",
+    "@react-jvectormap/world": "^1.1.2",
+    "apexcharts": "^4.5.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "flatpickr": "^4.6.13",
+    "fullcalendar": "^6.1.15",
+    "mongoose": "^8.12.1",
+    "next": "15.2.2",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.8",
+    "react-flatpickr": "^3.10.13",
+    "react-icons": "^5.5.0",
+    "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/bcrypt": "^5.0.2",
+    "@types/flatpickr": "^3.0.2",
+    "@types/mongoose": "^5.11.96",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/react-flatpickr": "^3.8.11",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.2.2",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5"
   }
 }
