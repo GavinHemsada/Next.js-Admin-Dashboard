@@ -1,22 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js-Admin-Dashboard
 
-## Getting Started
+## Overview
+This is a **Next.js Admin Dashboard** with authentication features, including **Login** and **Register** pages. The frontend is built with **Next.js**, while the backend is connected to **MongoDB** for user management.
 
-First, run the development server:
+## Features
+- User Authentication (Login & Register)
+- Protected Routes for Admin Dashboard
+- API Integration with MongoDB
+- Responsive UI
+- Modern Design with Tailwind CSS 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Tech Stack
+### Frontend:
+- Next.js
+- React
+- Tailwind CSS
+- TypeSript
+
+### Backend:
+- Node.js with Express.js
+- MongoDB with Mongoose
+- bcrypt for Password Hashing
+
+## Installation
+### Prerequisites
+Make sure you have the following installed:
+- Node.js (v18+ recommended)
+- MongoDB (local or cloud instance like MongoDB Atlas)
+
+### Clone the Repository
+```sh
+git clone https://github.com/GavinHemsada/nextjs-admin-dashboard.git
+cd nextjs-admin-dashboard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Configure Environment Variables
+Create a `.env.local` file in the root directory and add the following:
+```
+MONGODB_URI=your-mongodb-connection-string
+```
+
+### Run the Development Server
+```sh
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Folder Structure
+```
+nextjs-admin-dashboard/
+│── public/
+│── src/
+│   ├── components/
+|   ├── hooks/
+|   ├── icons/
+|   ├── (backend)/
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── (View)
+│   │   │   ├── dashboard/
+│   │   │   ├── Login/
+│   │   │   ├── Register/
+│   │   ├── api/
+│── styles/
+│── .env.local
+│── package.json
+│── next.config.js
+│── tsconfig.json
+│── README.md
+```
+
+## Contact
+For issues or contributions, reach out via GitHub Issues.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
