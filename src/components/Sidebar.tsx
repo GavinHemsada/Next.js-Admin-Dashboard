@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link"; // Import Link from next/link
 import {CalenderIcon,UserCircleIcon} from "@/icons"
-import { FaBars, FaHome, FaCog, FaChartBar, FaEnvelope } from "react-icons/fa";
+import { FaBars, FaHome, FaChartBar, FaEnvelope } from "react-icons/fa";
 
 export default function Sidebar() {
   const [isExpanded, setIsExpanded] = useState(true);
