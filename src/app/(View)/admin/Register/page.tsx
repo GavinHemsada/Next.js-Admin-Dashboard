@@ -66,6 +66,7 @@ const SignUp = () => {
       setErrors({ name: "", email: "", password: "" });
     } catch (error: unknown) {
       setErrors((prev) => ({...prev,email: "User with this email already exists."}));
+      console.log(error);
     }
   };
 
