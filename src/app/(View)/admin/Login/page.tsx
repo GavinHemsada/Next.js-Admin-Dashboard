@@ -51,6 +51,7 @@ export default function Home() {
       setEmail("");
     }catch(err){
       setServerError("Invalid Email or Password")
+      console.log(err);
     }
    
   };
