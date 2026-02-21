@@ -32,7 +32,7 @@ export default function Header() {
         </button>
         <div className="flex items-center">
           <Image
-            src="/images/user/owner.jpg" // Replace with actual user image
+            src="/images/user/owner.jpeg" // Replace with actual user image
             alt="User"
             width={32}
             height={32}
